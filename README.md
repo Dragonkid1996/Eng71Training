@@ -1,11 +1,19 @@
 # Eng71Training
 
-[C# Core] (c#-core)
+[C# Core]()
 
-[C# OOP] (c#-oop)
 
-[C# Data] (c#-data)
 
-[C# SDET 1] (c#-sdet-1)
+[C# OOP]()
 
-[C# SDET 2] (c#-sdet-2)
+
+
+[C# Data]()
+
+
+
+[C# SDET 1]()
+
+
+
+[C# SDET 2]()
