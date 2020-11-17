@@ -1,6 +1,6 @@
 # Eng71Training
 
-[C# Core](#c#-core)
+[C# Core](https://github.com/Dragonkid1996/Eng71Training/tree/main/Core)
 
 
 
