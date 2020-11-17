@@ -1,0 +1,16 @@
+﻿<Window x:Class="Lab_08_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_08_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Example_textbox" HorizontalAlignment="Center" Height="40" Margin="223,99,203,0" TextWrapping="Wrap" Text="Engineering 71's Super Cool App" VerticalAlignment="Top" Width="366" FontFamily="Algerian" FontSize="20"/>
+        <RadioButton x:Name="Hello_radioButton" Content="Hello" HorizontalAlignment="Left" Margin="279,175,0,0" VerticalAlignment="Top" IsChecked="true"/>
+        <RadioButton x:Name="Goodbye_radioButton" Content="Goodbye" HorizontalAlignment="Left" Margin="462,175,0,0" VerticalAlignment="Top" IsChecked="false"/>
+        <Button x:Name="Display_button" Content="Confirm" HorizontalAlignment="Center" Margin="279,247,263,0" VerticalAlignment="Top" Width="250" Height="100" FontSize="18" Click="Display_button_Click"/>
+
+    </Grid>
+</Window>
