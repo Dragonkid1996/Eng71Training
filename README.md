@@ -1,14 +1,14 @@
 # Eng71Training
 
-[C# Core](https://github.com/Dragonkid1996/Eng71Training/tree/main/Core)
+[C# Core](https://github.com/Dragonkid1996/Eng71Training/tree/main/1.Core)
 
 
 
-[C# OOP](#c#-oop)
+[C# OOP](https://github.com/Dragonkid1996/Eng71Training/tree/main/2.OOP)
 
 
 
-[C# Data]()
+[C# Data](https://github.com/Dragonkid1996/Eng71Training/tree/main/3.Data)
 
 
 

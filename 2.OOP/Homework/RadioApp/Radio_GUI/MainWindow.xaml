@@ -1,0 +1,21 @@
+﻿<Window x:Class="Radio_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Radio_GUI"
+        mc:Ignorable="d"
+        Title="Radio" MinHeight="500" MinWidth="250" MaxHeight="500" MaxWidth="250">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="D:\SpartaGlobal\Github\Eng71Training\OOP\Homework\RadioApp\Radio_GUI\Nano.jpg"/>
+        </Grid.Background>
+        <MediaElement x:Name="Player" LoadedBehavior="Manual" UnloadedBehavior="Manual" HorizontalAlignment="Left" Height="100" Margin="56,12,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Name="btnOnOff" Content="On" HorizontalAlignment="Center" Margin="0,273,0,0" VerticalAlignment="Top" Click="btnOnOff_Click" Style="{StaticResource ButtonStyle}" Background="#FF1E2631"/>
+        <ListBox x:Name="channelListBox" Margin="29,17,29,286" MouseDoubleClick="channelListBox_MouseDoubleClick"/>
+        <Button x:Name="btnVolDown" Content="-" HorizontalAlignment="Left" Margin="38,276,0,0" VerticalAlignment="Top" Style="{StaticResource ButtonStyle}" Background="#FF2C303B" Height="40" Width="40" FontSize="18" Click="btnVolDown_Click"/>
+        <Button x:Name="btnVolUp" Content="+" HorizontalAlignment="Left" Margin="158,276,0,0" VerticalAlignment="Top" Style="{StaticResource ButtonStyle}" Background="#FF2F3841" Height="40" Width="40" FontSize="18" Click="btnVolUp_Click"/>
+        <Button x:Name="btnMenu" Content="Add" HorizontalAlignment="Center" Height="31" VerticalAlignment="Top" Style="{StaticResource ButtonStyle}" Click="btnMenu_Click" Margin="0,228,0,0" Background="#FF262E39"/>
+        <Button x:Name="button" Content="Close" HorizontalAlignment="Center" Height="30" Margin="0,342,0,0" VerticalAlignment="Top" Style="{StaticResource ButtonStyle}" Click="button_Click" Background="#FF333743"/>
+    </Grid>
+</Window>
